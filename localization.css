@@ -47,7 +47,7 @@
 	display: none;
 }
 
-/* サイドバーを開くボタンを上に配置 */
+/* サイドバーを開くボタンを下に配置 */
 @media (max-width: 767px) {
 	#top-bar .open-menu a {
 		top: auto;
