@@ -1,0 +1,11 @@
+# Output
+dist/
+sigma.css
+
+# Dependencies
+node_modules/
+
+# Miscellaneous
+.*.sw?
+*~
+*#

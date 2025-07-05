@@ -1,0 +1,27 @@
+{
+  "name": "sigma-theme-jp",
+  "description": "JP SCP Wiki site theme (build process)",
+  "version": "1.0.0",
+  "authors": "JP SCP Wiki Technical Team",
+  "license": "CC-BY-SA-3.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SCP-JP/sigma"
+  },
+  "devDependencies": {
+    "minify": "^9.2.0",
+    "prettier": "^2.8.7",
+    "stylelint": "^15.10.1",
+    "stylelint-config-standard": "^32.0.0"
+  },
+  "scripts": {
+    "build": "./build.sh",
+    "clean": "rm -rf dist sigma.css",
+    "minify": "minify sigma.css > dist/css/sigma.min.css",
+    "stylelint": "stylelint localization.css",
+    "stylelint:fix": "stylelint --fix localization.css",
+    "prettier": "prettier -c localization.css",
+    "prettier:fix": "prettier -w localization.css"
+  }
+}
