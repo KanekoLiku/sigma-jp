@@ -37,11 +37,6 @@
 	letter-spacing: 0;
 }
 
-/* Interwikiのスクロールを防止 */
-#interwiki .side-block {
-	margin: 0 5px;
-}
-
 #side-bar .menu-item img,
 #interwiki .menu-item img {
 	display: none;
